@@ -6,7 +6,7 @@
 
 **Architecture:** 只在 get_agent_for_request 中使用现有 run_sync_io 加载配置；选择 Agent、准入判断和获取 Workspace 仍在原事件循环。Qoder SDK 内部同步认证文件操作记录为外部依赖已知限制，不修改厂商实现，不作为本分支完成条件。
 
-**Tech Stack:** Python asyncio、现有 QwenPaw IO 工具与宿主核心测试。
+**Tech Stack:** Python asyncio、现有 SadShaPaw IO 工具与宿主核心测试。
 
 **Spec:** 用户 2026-11-10 明确的职责边界，以及本文件“设计”和“Global Constraints”。
 
@@ -16,7 +16,7 @@
 
 | 路径 | 已确认行为 | 本次处理 |
 | --- | --- | --- |
-| Harness 管理网关 → get_agent_for_request → load_config | 即使请求指定 Agent，仍在事件循环里同步加载全局配置；缓存命中也会检查文件并获取同步锁 | QwenPaw 自有代码，直接修复 |
+| Harness 管理网关 → get_agent_for_request → load_config | 即使请求指定 Agent，仍在事件循环里同步加载全局配置；缓存命中也会检查文件并获取同步锁 | SadShaPaw 自有代码，直接修复 |
 | QoderBackend._connect → QoderSDKClient.connect → 默认 Transport | SDK 在异步 connect 内同步创建认证目录、写入文件和设置权限 | 外部依赖限制，保留公开 SDK 调用并如实记录 |
 
 调用方见 [公共 Agent 解析](../../../src/qwenpaw/app/agent_context.py)、[管理网关](../../../src/qwenpaw/plugins/_harness_http.py)、[配置加载](../../../src/qwenpaw/config/utils.py) 和 [Qoder adapter](../../../plugins/harness/qoder/adapter.py)。网关后续读取厂商配置已经使用 load_agent_config_async，不重复改造。
@@ -82,7 +82,7 @@ Qoder SDK 认证文件的创建、写入和权限设置本身属于正常工作�
 
 本插件固定使用 qoder-agent-sdk 1.0.9。核查的官方 1.0.17 源码仍有同样的同步调用，因此不把升级到该版本视为修复。[Qoder SDK (2026/10), 源码包与校验值](https://pypi.org/project/qoder-agent-sdk/1.0.17/#files)
 
-厂商 SDK 的修复、维护和发布由 Qoder 负责；QwenPaw 继续使用公开 SDK 接口。未来若厂商发布相关修复，可独立评估兼容性后更新依赖。**本次宿主改造完成不依赖厂商修正版发布，也不声称消除了 Qoder SDK 内部的阻塞风险。** 本轮不扩展处理 SDK 的认证取消/清理实现。
+厂商 SDK 的修复、维护和发布由 Qoder 负责；SadShaPaw 继续使用公开 SDK 接口。未来若厂商发布相关修复，可独立评估兼容性后更新依赖。**本次宿主改造完成不依赖厂商修正版发布，也不声称消除了 Qoder SDK 内部的阻塞风险。** 本轮不扩展处理 SDK 的认证取消/清理实现。
 
 ## 最终 checklist
 

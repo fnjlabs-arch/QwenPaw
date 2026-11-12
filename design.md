@@ -1,12 +1,12 @@
-# QwenPaw Design Language
+# SadShaPaw Design Language
 
 > Quiet surfaces. Precise structure. Orange with purpose. Motion that follows intent.
 
-This document defines QwenPaw's visual identity, interaction language, and implementation quality gates across the product. It guides reusable components and future design decisions; feature requirements, page layouts, and implementation progress belong in their respective workspace documents. Complete the [implementation quality gates](#implementation-quality-gates) to verify that an implementation preserves this language in real states and interactions.
+This document defines SadShaPaw's visual identity, interaction language, and implementation quality gates across the product. It guides reusable components and future design decisions; feature requirements, page layouts, and implementation progress belong in their respective workspace documents. Complete the [implementation quality gates](#implementation-quality-gates) to verify that an implementation preserves this language in real states and interactions.
 
 ## Character and principles
 
-QwenPaw should feel calm, capable, and carefully made, with the clarity of a professional instrument and the responsiveness of an object in your hand. Its identity comes from warm neutral surfaces, deliberate typography, and a recognizable orange accent.
+SadShaPaw should feel calm, capable, and carefully made, with the clarity of a professional instrument and the responsiveness of an object in your hand. Its identity comes from warm neutral surfaces, deliberate typography, and a recognizable orange accent.
 
 - **Clarity:** make content, available actions, and current state immediately understandable.
 - **Precision:** align edges, baselines, spacing, and optical centers. Every visible layer needs a purpose.
@@ -16,22 +16,22 @@ QwenPaw should feel calm, capable, and carefully made, with the clarity of a pro
 - **Consistency:** reuse the same visual and physical behavior for the same meaning.
 - **Proportionality:** match visual weight and implementation scope to the user impact. A routine recoverable state should not become a new focal surface.
 
-Apple informs hierarchy, materials, typography, and direct manipulation. Rare UI informs the craft of individual interactions. QwenPaw translates these references into its own orange identity and shared component vocabulary.
+Apple informs hierarchy, materials, typography, and direct manipulation. Rare UI informs the craft of individual interactions. SadShaPaw translates these references into its own orange identity and shared component vocabulary.
 
 ### Context-specific expression
 
-QwenPaw should be recognizable without turning every page into the same template. Begin with the page's primary user task, information shape, and risk; then express those needs through the shared language above.
+SadShaPaw should be recognizable without turning every page into the same template. Begin with the page's primary user task, information shape, and risk; then express those needs through the shared language above.
 
 - Give each page one dominant task and one clear visual entry point. Supporting regions stay quieter unless their state requires attention.
 - Spend distinctiveness on one meaningful composition or interaction. Repeating glow, tilt, stagger, oversized type, or identical cards across a page weakens hierarchy.
 - Do not add an eyebrow, badge, metric, illustration, gradient, or container unless it communicates structure, state, or affordance.
 - Prefer the product's real terminology and representative content. Placeholder marketing language and fabricated metrics make an operational interface less trustworthy.
 - Adapt shared patterns to the content while preserving tokens, control behavior, and accessibility. A page may be distinctive; it must not create a parallel design system.
-- When an established QwenPaw pattern already solves the task, reuse it. Novelty must improve comprehension, continuity, or control rather than merely make the page look different.
+- When an established SadShaPaw pattern already solves the task, reuse it. Novelty must improve comprehension, continuity, or control rather than merely make the page look different.
 
 ## Color and brand identity
 
-**QwenPaw's default brand orange is `#FF7F16` (RGB 255, 127, 22).** QwenPaw supports custom themes: this color defines the built-in identity, not a mandatory runtime UI color. Use the active theme's accent consistently for primary emphasis, selected states, active controls, and restrained interaction highlights. Do not introduce a competing decorative accent palette.
+**SadShaPaw's default brand orange is `#FF7F16` (RGB 255, 127, 22).** SadShaPaw supports custom themes: this color defines the built-in identity, not a mandatory runtime UI color. Use the active theme's accent consistently for primary emphasis, selected states, active controls, and restrained interaction highlights. Do not introduce a competing decorative accent palette.
 
 The following values reflect the built-in theme in the active workspace's `console/src/styles/tokens.css`. Components must consume semantic tokens instead of repeating literal hex values. Theme overrides remain authoritative at runtime.
 
@@ -82,7 +82,7 @@ All literal colors and color-mix recipes in this document describe the built-in 
 
 ## Typography and iconography
 
-Use the platform system font stack: `-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`, with appropriate system fallbacks for other scripts. This gives QwenPaw familiar, readable text on macOS, Windows, and Linux.
+Use the platform system font stack: `-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`, with appropriate system fallbacks for other scripts. This gives SadShaPaw familiar, readable text on macOS, Windows, and Linux.
 
 | Role              | Starting size | Weight  | Line height | Tracking        |
 | ----------------- | ------------- | ------- | ----------- | --------------- |
@@ -92,7 +92,7 @@ Use the platform system font stack: `-apple-system, BlinkMacSystemFont, "Segoe U
 | Body and controls | 14–16px       | 400–500 | 1.45–1.60   | 0               |
 | Supporting text   | 12–13px       | 400–500 | 1.40–1.50   | 0               |
 
-These are QwenPaw starting values, not fixed dimensions or Apple specifications. Express text sizes in relative units, support user scaling, and adjust tracking for the script. Keep long prose around 60–75 characters per line. Use tabular numerals for changing numeric values; reserve monospace for code and identifiers.
+These are SadShaPaw starting values, not fixed dimensions or Apple specifications. Express text sizes in relative units, support user scaling, and adjust tracking for the script. Keep long prose around 60–75 characters per line. Use tabular numerals for changing numeric values; reserve monospace for code and identifiers.
 
 Use sentence case and concise action labels. Keep essential state and errors visible. Secondary explanations may appear on demand, accessible through focus and touch as well as hover.
 
@@ -149,7 +149,7 @@ The reference images suggest coherent rounded geometry, varied but aligned card 
 - Protect text from glare, blur, and moving light. Decorative layers must not intercept input.
 - Avoid stacking translucent layers; provide solid alternatives for contrast and reduced-transparency preferences.
 
-The screenshot's `#F5F5F7` canvas and white card illustrate tonal separation. QwenPaw retains its actual `#F9F8F4` canvas token. The stated “1% gray difference” is visual shorthand, not a measured requirement or a guarantee of accessible contrast.
+The screenshot's `#F5F5F7` canvas and white card illustrate tonal separation. SadShaPaw retains its actual `#F9F8F4` canvas token. The stated “1% gray difference” is visual shorthand, not a measured requirement or a guarantee of accessible contrast.
 
 ## Interaction grammar
 
@@ -192,7 +192,7 @@ Not every surface needs a unique visual for every row in this table. It must, ho
 
 ## Interaction craft
 
-QwenPaw should contain small, thoughtful interactions that make a control easier to understand and more satisfying to use. Craft comes from connecting shape, state, movement, and feedback around one intention. A well-designed control can feel distinctive without adding visual decoration or extra steps.
+SadShaPaw should contain small, thoughtful interactions that make a control easier to understand and more satisfying to use. Craft comes from connecting shape, state, movement, and feedback around one intention. A well-designed control can feel distinctive without adding visual decoration or extra steps.
 
 ### Compose around one intention
 
@@ -283,7 +283,7 @@ The reusable idea is to make a meaningful boundary tangible and coordinate its f
 
 ## Motion language
 
-Motion explains cause, continuity, and physical response. A still frame should remain clear without it. QwenPaw uses restrained springs, anchored transformations, and immediate press feedback as its baseline; expressive light effects are optional accents.
+Motion explains cause, continuity, and physical response. A still frame should remain clear without it. SadShaPaw uses restrained springs, anchored transformations, and immediate press feedback as its baseline; expressive light effects are optional accents.
 
 Apple's _Designing Fluid Interfaces_ informs four core behaviors: respond on contact, follow direct manipulation continuously, preserve motion when gestures end, and allow the user to redirect an interaction. See the [Apple reference](https://developer.apple.com/videos/play/wwdc2018/803/).
 
@@ -298,7 +298,7 @@ Apple's _Designing Fluid Interfaces_ informs four core behaviors: respond on con
 - Prefer transform and opacity. Bound and profile size, blur, gradient, and shadow effects; avoid continuous expensive repainting.
 - Give each interaction one dominant effect. Do not combine tilt, glow, morphing, and stagger simply because they are available.
 
-The following eight patterns are a reusable vocabulary. Their numeric ranges are proposed QwenPaw tuning guidance, not claims about existing implementation or external library defaults.
+The following eight patterns are a reusable vocabulary. Their numeric ranges are proposed SadShaPaw tuning guidance, not claims about existing implementation or external library defaults.
 
 ### TILT GLARE
 
@@ -372,7 +372,7 @@ Provide explicit dismissal and keyboard access alongside dragging. Coordinate co
 
 ### CONIC GLOW
 
-A fine conic-gradient outline and a diffuse glow beneath a surface create a restrained moment of emphasis. Use the QwenPaw orange family, a thin edge, and low-intensity light.
+A fine conic-gradient outline and a diffuse glow beneath a surface create a restrained moment of emphasis. Use the SadShaPaw orange family, a thin edge, and low-intensity light.
 
 Reserve this for a focal interaction or meaningful temporary state. Keep it out of routine text surfaces and dense collections. Prefer a short activation over an indefinite breathing loop; stop when inactive or offscreen. The effect cannot be the only indication of progress or state.
 
@@ -429,7 +429,7 @@ The current dependency set in the active workspace's `console/package.json` alre
 
 Duration wheels use native scrolling for momentum and snapping, commit on `scrollend`, and use instant external positioning under reduced motion. Keep dependency distributions unmodified; application-specific transitions belong in the host UI.
 
-Reuse the project's wrappers before adding a dependency. Apply QwenPaw tokens and behavior to package primitives rather than copying a showcase's entire appearance. Rare UI is a reference for interaction craft; adopting its code is a separate implementation decision that requires checking suitability and license terms.
+Reuse the project's wrappers before adding a dependency. Apply SadShaPaw tokens and behavior to package primitives rather than copying a showcase's entire appearance. Rare UI is a reference for interaction craft; adopting its code is a separate implementation decision that requires checking suitability and license terms.
 
 ## Perceived and runtime performance
 
@@ -461,7 +461,7 @@ Accessibility is part of the material and interaction design, not a separate vis
 
 Use this checklist for each design or implementation review. It is a reusable quality gate, not a record that the current application has passed these checks. Complete the applicable [rendered and interaction checks](#implementation-quality-gates) before claiming implementation completion.
 
-- [ ] The built-in theme uses QwenPaw Orange `#FF7F16` and its `#FF9D4D` variant; custom themes take precedence through semantic tokens.
+- [ ] The built-in theme uses SadShaPaw Orange `#FF7F16` and its `#FF9D4D` variant; custom themes take precedence through semantic tokens.
 - [ ] Static controls, gradients, glows, and in-progress interactions follow the active custom theme in light and dark modes without reverting to hardcoded defaults.
 - [ ] Colors come from semantic tokens, with tested foreground contrast and clear status meaning.
 - [ ] Type, icons, baselines, spacing, and corners form a coherent hierarchy.
@@ -488,10 +488,10 @@ Use this checklist for each design or implementation review. It is a reusable qu
 - [Rare UI](https://www.rareui.com/) and its [notification bell reference](https://www.rareui.com/components/notificationbell) — small, state-linked interactions and coordinated numeric feedback. Its official component description was reviewed; the live showcase was unavailable during this revision.
 - The two user-supplied images — proportional corners, aligned bento composition, tonal separation, and soft light. Their numeric shortcuts are interpreted as visual suggestions, not official Apple rules.
 - The eight user-supplied effect briefs — the source of the motion vocabulary above.
-- The user-supplied thinking-budget reference and description — the source of the magnetic enable rail, integrated Off/On boundary, and coordinated rolling readout. The specified thresholds and timing are QwenPaw proposals, not measurements of the reference animation.
+- The user-supplied thinking-budget reference and description — the source of the magnetic enable rail, integrated Off/On boundary, and coordinated rolling readout. The specified thresholds and timing are SadShaPaw proposals, not measurements of the reference animation.
 - `console/src/styles/tokens.css` in the active workspace — current theme color definitions; `console/package.json` — available implementation dependencies.
 
-This document defines the intended QwenPaw language. It does not assert that every existing screen already conforms to it.
+This document defines the intended SadShaPaw language. It does not assert that every existing screen already conforms to it.
 
 ## Implementation quality gates
 
@@ -505,7 +505,7 @@ This section turns the preceding design principles into repeatable implementatio
 - Apply a gate only to the changed behavior and its proven impact surface. Passing a checklist is not a reason to implement every ideal it mentions.
 - Keep evidence reproducible. Record the route, viewport, theme, input method, data state, and command or browser action that produced a result.
 - Distinguish static reasoning from executed verification. Never describe an unrun check as passed.
-- Treat external design and performance guidance as hypotheses. QwenPaw's requirements, repository behavior, and measured results remain authoritative.
+- Treat external design and performance guidance as hypotheses. SadShaPaw's requirements, repository behavior, and measured results remain authoritative.
 
 ### Before implementation
 
@@ -521,7 +521,7 @@ Record the following in the task plan or feature design:
 | Risk              | What can be lost, duplicated, hidden, delayed, or misinterpreted?                                      |
 | Evidence          | Which rendered checks and focused tests will prove the result?                                         |
 
-For a material redesign, describe one intended visual direction before editing. The direction must name the hierarchy, density, surface treatment, and signature detail in QwenPaw terms. Do not present several unrelated design systems when the product language already determines the answer.
+For a material redesign, describe one intended visual direction before editing. The direction must name the hierarchy, density, surface treatment, and signature detail in SadShaPaw terms. Do not present several unrelated design systems when the product language already determines the answer.
 
 ### Required state coverage
 
@@ -658,4 +658,4 @@ Summarize UI work with:
 - Not verified: <explicit remaining platforms, states, or tools>
 ```
 
-A design is not complete merely because the default screenshot looks polished. Completion requires the applicable states to remain understandable, responsive, recoverable, and consistent with QwenPaw under real interaction.
+A design is not complete merely because the default screenshot looks polished. Completion requires the applicable states to remain understandable, responsive, recoverable, and consistent with SadShaPaw under real interaction.

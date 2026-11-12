@@ -215,11 +215,11 @@ export function Nav() {
                     <CommunityBenefitsTriggerLabel badgeAfter />
                   </a>
                   <a
-                    href="https://github.com/agentscope-ai/QwenPaw"
+                    href="https://github.com/fnjlabs-arch/QwenPaw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={exploreMenuItemClass}
-                    title="QwenPaw on GitHub"
+                    title="SadShaPaw on GitHub"
                     onClick={() => setExploreOpen(false)}
                   >
                     <GitHubIcon />
@@ -314,12 +314,12 @@ export function Nav() {
           <BlogIcon size={18} aria-hidden /> {t("nav.blog")}
         </Link>
         <a
-          href="https://github.com/agentscope-ai/QwenPaw"
+          href="https://github.com/fnjlabs-arch/QwenPaw"
           target="_blank"
           rel="noopener noreferrer"
           className={navLinkOrangeClass}
           onClick={() => setOpen(false)}
-          title="QwenPaw on GitHub"
+          title="SadShaPaw on GitHub"
         >
           <GitHubIcon /> {t("nav.github")}
         </a>

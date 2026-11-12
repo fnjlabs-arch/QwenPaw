@@ -1,29 +1,26 @@
 <div align="center">
 
-# QwenPaw
+# SadShaPaw
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black.svg?logo=github)](https://github.com/agentscope-ai/QwenPaw)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black.svg?logo=github)](https://github.com/fnjlabs-arch/QwenPaw)
 [![PyPI](https://img.shields.io/pypi/v/qwenpaw?color=3775A9&label=PyPI&logo=pypi)](https://pypi.org/project/qwenpaw/)
 [![Documentation](https://img.shields.io/badge/Docs-Website-green.svg?logo=readthedocs&label=Docs)](https://qwenpaw.agentscope.io/)
 [![Python Version](https://img.shields.io/badge/python-3.11%20~%20%3C3.14-blue.svg?logo=python&label=Python)](https://www.python.org/downloads/)
-[![Last Commit](https://img.shields.io/github/last-commit/agentscope-ai/QwenPaw)](https://github.com/agentscope-ai/QwenPaw)
+[![Last Commit](https://img.shields.io/github/last-commit/fnjlabs-arch/QwenPaw)](https://github.com/fnjlabs-arch/QwenPaw)
 [![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?logo=apache&label=License)](LICENSE)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg?logo=python&label=CodeStyle)](https://github.com/psf/black)
-[![GitHub Stars](https://img.shields.io/github/stars/agentscope-ai/QwenPaw?style=flat&logo=github&color=yellow&label=Stars)](https://github.com/agentscope-ai/QwenPaw/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/agentscope-ai/QwenPaw?style=flat&logo=github&color=purple&label=Forks)](https://github.com/agentscope-ai/QwenPaw/network)
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-Ask_Devin-navy.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/agentscope-ai/QwenPaw)
+[![GitHub Stars](https://img.shields.io/github/stars/fnjlabs-arch/QwenPaw?style=flat&logo=github&color=yellow&label=Stars)](https://github.com/fnjlabs-arch/QwenPaw/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/fnjlabs-arch/QwenPaw?style=flat&logo=github&color=purple&label=Forks)](https://github.com/fnjlabs-arch/QwenPaw/network)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-Ask_Devin-navy.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/fnjlabs-arch/QwenPaw)
 [![Discord](https://img.shields.io/badge/Discord-Join_Us-blueviolet.svg?logo=discord)](https://discord.gg/eYMpfnkG8h)
 [![X](https://img.shields.io/badge/X-Follow_Us-black.svg?logo=x)](https://x.com/agentscope_ai)
 [![DingTalk](https://img.shields.io/badge/DingTalk-Join_Us-orange.svg)](https://qr.dingtalk.com/action/joingroup?code=v1,k1,OmDlBXpjW+I2vWjKDsjvI9dhcXjGZi3bQiojOq3dlDw=&_dt_no_comment=1&origin=11)
 [![AgentScope Platform](https://img.shields.io/badge/%E2%98%81_AgentScope_Platform-%F0%9F%90%BE_7%2F24_Online_%26_Free-FF6B2B.svg)](https://platform.agentscope.io/)
 
-<a href="https://trendshift.io/repositories/25882" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/25882/daily" alt="agentscope-ai%2FQwenPaw | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/25882" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/25882/daily" alt="fnjlabs-arch%2FQwenPaw | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 [[ドキュメント](https://qwenpaw.agentscope.io/)] [[English](README.md)] [[中文](README_zh.md)] [[Русский](README_ru.md)]
 
-<p align="center">
-  <img src="https://gw.alicdn.com/imgextra/i1/O1CN01sens5C1TuwioeGexL_!!6000000002443-55-tps-771-132.svg" alt="QwenPaw Logo" width="120">
-</p>
 
 <p align="center"><b>あなたのために働き、あなたとともに成長する。</b></p>
 
@@ -34,7 +31,7 @@
 | | |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **忘れない**                               | 3 層メモリ — ライブな作業コンテキスト、完全な逐語履歴、そして [ReMe](https://github.com/agentscope-ai/ReMe) による自己進化型パーソナルナレッジベース。会話と資料を、読み取り・編集・検索が可能で相互にリンクされた Markdown メモリへ継続的に変換。 |
-| **ローカルもクラウドも、自由に動く**        | QwenPaw-Flash モデル（2B / 4B / 9B / 35B-A3B / 27B）— エージェントタスク向けに訓練。内蔵 QwenPaw Local ランタイム — API キー不要、クラウド依存なし。Ollama、LM Studio、14+ クラウドプロバイダーにも対応。                  |
+| **ローカルもクラウドも、自由に動く**        | SadShaPaw-Flash モデル（2B / 4B / 9B / 35B-A3B / 27B）— エージェントタスク向けに訓練。内蔵 SadShaPaw Local ランタイム — API キー不要、クラウド依存なし。Ollama、LM Studio、14+ クラウドプロバイダーにも対応。                  |
 | **セキュリティ内蔵**                         | カーネルレベルの Sandbox、Tool Guard、File Guard、Skill Scanner、Access Policy。危険なコマンドは実行前にブロック。                                                                                    |
 | **マルチエージェント＆並列**                | 独自のメモリとスキルを持つ独立エージェントを生成。実行時のサブエージェント。Agent Communication Protocol（ACP）によるクロスシステム編成。                                                                         |
 | **ファイルワークスペース**                     | プロジェクトと Agent のファイルに共通するナビゲーション、プレビュー、編集、Diff、アップロード、ダウンロード。                                                                      |
@@ -43,7 +40,7 @@
 | **あなたのもの、私たちのものではない**          | ローカル展開 — データはあなたのマシンに留まる。サードパーティホスティングなし、データアップロードなし。                                                                                                         |
 
 > <details>
-> <summary><b>QwenPaw でできること</b></summary>
+> <summary><b>SadShaPaw でできること</b></summary>
 >
 > <br>
 >
@@ -60,15 +57,15 @@
 
 ## ニュース
 
-- [2026-11-11] **v2.3.0** | Piccolo ローカル意思決定モデル、QwenPaw Community 連携、大規模・小規模モデルが連携する Advisor Mode、Code Mode。プラグインシステムの再構築、プラグイン SDK、チャネルのプラグイン化。画像の記憶とタグ閲覧、Console とデスクトップの複数ウィンドウ操作の改善。 [v2.3.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.3.0)
+- [2026-11-11] **v2.3.0** | Piccolo ローカル意思決定モデル、SadShaPaw Community 連携、大規模・小規模モデルが連携する Advisor Mode、Code Mode。プラグインシステムの再構築、プラグイン SDK、チャネルのプラグイン化。画像の記憶とタグ閲覧、Console とデスクトップの複数ウィンドウ操作の改善。 [v2.3.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.3.0)
 
-- [2026-10-15] **v2.2.2** | Console の更新、9B/27B/35B-A3B をカバーする新しい QwenPaw-Flash モデル、Codex/Qoder のデータを移行できる PawPort、Creator 2.0.1、Data 0.3.0。 [v2.2.2 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.2.2)
+- [2026-10-15] **v2.2.2** | Console の更新、9B/27B/35B-A3B をカバーする新しい SadShaPaw-Flash モデル、Codex/Qoder のデータを移行できる PawPort、Creator 2.0.1、Data 0.3.0。 [v2.2.2 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.2.2)
 
 - [2026-09-10] **v2.2.1** | Creator 1.2 のブループリントワークベンチ、Agent ごとのモデルルーティング、統合環境管理。[v2.2.1 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.2.1)
 
-- [2026-09-03] **v2.2.0** | セルフホスト型マルチユーザー QwenPaw Hub、QwenPaw Mail、ネイティブ QwenPaw Data、統合モデルルーティング、Creator 1.1 に加え、マーケット、Console、Skills、チャネル、信頼性を大幅に改善。[v2.2.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.2.0)
+- [2026-09-03] **v2.2.0** | セルフホスト型マルチユーザー SadShaPaw Hub、SadShaPaw Mail、ネイティブ SadShaPaw Data、統合モデルルーティング、Creator 1.1 に加え、マーケット、Console、Skills、チャネル、信頼性を大幅に改善。[v2.2.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.2.0)
 
-- [2026-08-13] **v2.1.0** | QwenPaw OS Shell、統合 Files ワークスペース、QwenPaw Creator、Codex/Qoder エージェント連携、Browser-use、Computer-use、ワークスペースチェックポイント、長時間の対話タスク継続など。[v2.1.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.1.0)
+- [2026-08-13] **v2.1.0** | SadShaPaw OS Shell、統合 Files ワークスペース、SadShaPaw Creator、Codex/Qoder エージェント連携、Browser-use、Computer-use、ワークスペースチェックポイント、長時間の対話タスク継続など。[v2.1.0 リリースノート →](https://qwenpaw.agentscope.io/release-notes#v2.1.0)
 
 [すべてのリリースノート →](https://qwenpaw.agentscope.io/release-notes)
 
@@ -86,7 +83,7 @@
 - [ロードマップ](#ロードマップ)
 - [コントリビュート](#コントリビュート)
 - [ソースからインストール](#ソースからインストール)
-- [なぜ QwenPaw？](#なぜ-qwenpaw)
+- [なぜ SadShaPaw？](#なぜ-qwenpaw)
 - [開発元](#開発元)
 - [ライセンス](#ライセンス)
 
@@ -112,7 +109,7 @@ qwenpaw app
 
 ### オプション 2: Script Install
 
-Python 環境の手動設定は不要。1 つのコマンドで自動的にすべてをインストール。スクリプトは uv（Python パッケージマネージャー）のダウンロード、仮想環境の作成、QwenPaw と全依存関係（Node.js とフロントエンドアセットを含む）のインストールを自動的に行います。注：一部のネットワーク環境や企業の権限管理下では使用できない場合があります。
+Python 環境の手動設定は不要。1 つのコマンドで自動的にすべてをインストール。スクリプトは uv（Python パッケージマネージャー）のダウンロード、仮想環境の作成、SadShaPaw と全依存関係（Node.js とフロントエンドアセットを含む）のインストールを自動的に行います。注：一部のネットワーク環境や企業の権限管理下では使用できない場合があります。
 
 **macOS / Linux:**
 
@@ -141,9 +138,9 @@ irm https://qwenpaw.agentscope.io/install.ps1 | iex
 >
 >    スクリプトはファイルインストールを完了しましたが、**制限付き言語モード** のため環境変数への自動書き込みができません。この場合、手動で設定してください：
 >    - **インストールディレクトリを確認**：
->      - `uv` の利用可否を確認：CMD で `uv --version` と入力し、バージョン番号が表示された場合は **QwenPaw パスのみ設定**。`『uv』 は内部コマンドでも外部コマンドでもなく、実行可能プログラムまたはバッチファイルでもありません。` と表示された場合は両方を設定する必要があります。
+>      - `uv` の利用可否を確認：CMD で `uv --version` と入力し、バージョン番号が表示された場合は **SadShaPaw パスのみ設定**。`『uv』 は内部コマンドでも外部コマンドでもなく、実行可能プログラムまたはバッチファイルでもありません。` と表示された場合は両方を設定する必要があります。
 >      - uv パス（いずれか一つ、インストール場所に応じて選択。`uv` が利用不可の場合に記入）：通常 `%USERPROFILE%\.local\bin`、`%USERPROFILE%\AppData\Local\uv`、または Python インストールディレクトリの `Scripts` フォルダ
->      - QwenPaw パス：通常 `%USERPROFILE%\.qwenpaw\bin` にあります。
+>      - SadShaPaw パス：通常 `%USERPROFILE%\.qwenpaw\bin` にあります。
 >    - **システム環境変数 Path への手動追加**：
 >      - `Win + R` を押し、`sysdm.cpl` と入力して Enter キーを押し、「システムのプロパティ」を開く。
 >      - 「詳細設定」→「環境変数」をクリック。
@@ -154,8 +151,8 @@ irm https://qwenpaw.agentscope.io/install.ps1 | iex
 >   **制限付き言語モード** のため、スクリプトが自動的に `uv` をダウンロードできない可能性があります。
 >   - **uv を手動でインストール**： [GitHub Release](https://github.com/astral-sh/uv/releases) を参照し、`uv.exe` を `%USERPROFILE%\.local\bin` または `%USERPROFILE%\AppData\Local\uv` に配置。または Python がインストールされていることを確認し、`python -m pip install -U uv` を実行。
 >   - **`uv` 環境変数の設定**：`uv` の配置ディレクトリと `%USERPROFILE%\.qwenpaw\bin` をシステムの `Path` 変数に追加してください。
->   - **再実行**：新しいターミナルを開き、インストールスクリプトを再度実行して `QwenPaw` のインストールを完了させてください。
->   - **`QwenPaw` 環境変数の設定**：`%USERPROFILE%\.qwenpaw\bin` をシステムの `Path` 変数に追加します。
+>   - **再実行**：新しいターミナルを開き、インストールスクリプトを再度実行して `SadShaPaw` のインストールを完了させてください。
+>   - **`SadShaPaw` 環境変数の設定**：`%USERPROFILE%\.qwenpaw\bin` をシステムの `Path` 変数に追加します。
 
 インストール完了後、新しいターミナルを開き、以下を実行してください：
 
@@ -225,7 +222,7 @@ docker run -p 127.0.0.1:8088:8088 \
 
 > **ホストマシン上の Ollama や他のモデルサービスに接続する**
 >
-> Docker コンテナ内の `localhost` はコンテナ自身を指し、ホストマシンではありません。Ollama（または他のモデルサービス）がホスト上で動作している場合、以下のいずれかの方法で QwenPaw コンテナからアクセスできます：
+> Docker コンテナ内の `localhost` はコンテナ自身を指し、ホストマシンではありません。Ollama（または他のモデルサービス）がホスト上で動作している場合、以下のいずれかの方法で SadShaPaw コンテナからアクセスできます：
 >
 > **方法 A** — ホストアドレスの明示的バインディング（全プラットフォーム対応）：
 > ```bash
@@ -236,7 +233,7 @@ docker run -p 127.0.0.1:8088:8088 \
 >   -v qwenpaw-backups:/app/working.backups \
 >   agentscope/qwenpaw:latest
 > ```
-> その後、QwenPaw の **設定 → モデル** で、Base URL を `http://host.docker.internal:<ポート>` に変更してください — 例えば、Ollama の場合は `http://host.docker.internal:11434`、LM Studio の場合は `http://host.docker.internal:1234/v1` とします。
+> その後、SadShaPaw の **設定 → モデル** で、Base URL を `http://host.docker.internal:<ポート>` に変更してください — 例えば、Ollama の場合は `http://host.docker.internal:11434`、LM Studio の場合は `http://host.docker.internal:1234/v1` とします。
 >
 > **方法 B** — ホストネットワーク（Linux のみ）：
 > ```bash
@@ -255,19 +252,19 @@ docker run -p 127.0.0.1:8088:8088 \
 
 ### オプション 4: Alibaba Cloud ECS へのデプロイ
 
-QwenPaw を Alibaba Cloud（ECS）で実行するには、ワンクリックデプロイを使用します: [QwenPaw on Alibaba Cloud (ECS) デプロイリンク](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884) を開き、プロンプトに従ってください。ステップバイステップの手順については、[Alibaba Cloud Developer: 3 分で AI アシスタントをデプロイ](https://developer.aliyun.com/article/1713682) を参照してください。
+SadShaPaw を Alibaba Cloud（ECS）で実行するには、ワンクリックデプロイを使用します: [SadShaPaw on Alibaba Cloud (ECS) デプロイリンク](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884) を開き、プロンプトに従ってください。ステップバイステップの手順については、[Alibaba Cloud Developer: 3 分で AI アシスタントをデプロイ](https://developer.aliyun.com/article/1713682) を参照してください。
 
 ---
 
 ### オプション 5: AgentScope Platform
 
-[AgentScope Platform](https://platform.agentscope.io/) でワンクリックのクラウド QwenPaw デプロイ、プラグイン共有、Skill マーケットに対応。無料、7/24 オンライン。
+[AgentScope Platform](https://platform.agentscope.io/) でワンクリックのクラウド SadShaPaw デプロイ、プラグイン共有、Skill マーケットに対応。無料、7/24 オンライン。
 
 ---
 
 ### オプション 6: ModelScope を使用
 
-[ModelScope Studio](https://modelscope.cn/studios/fork?target=AgentScope/QwenPaw) でもクラウド QwenPaw デプロイに対応。注意：他の人があなたの QwenPaw を操作できないよう、Studio を **非公開** に設定してください。
+[ModelScope Studio](https://modelscope.cn/studios/fork?target=AgentScope/SadShaPaw) でもクラウド SadShaPaw デプロイに対応。注意：他の人があなたの SadShaPaw を操作できないよう、Studio を **非公開** に設定してください。
 
 ---
 
@@ -278,13 +275,13 @@ QwenPaw を Alibaba Cloud（ECS）で実行するには、ワンクリックデ�
 > - **パフォーマンスの問題の可能性**: 起動時間、メモリ使用量などのパフォーマンス面でさらなる最適化が必要な場合があります
 > - **開発中の機能**: 一部の機能が不安定または欠落している可能性があります
 
-コマンドラインツールに慣れていない場合、QwenPaw のデスクトップアプリケーションをダウンロードして使用できます。Python 環境の手動設定やコマンドの実行は不要です。
+コマンドラインツールに慣れていない場合、SadShaPaw のデスクトップアプリケーションをダウンロードして使用できます。Python 環境の手動設定やコマンドの実行は不要です。
 
 #### ダウンロード
 
 [公式ダウンロードページ](https://qwenpaw.agentscope.io/downloads) からデスクトップアプリ（Tauri 版）をダウンロード:
-- **Windows**: `QwenPaw-Tauri-<version>-Windows-setup.exe`
-- **macOS**: `QwenPaw-Tauri-<version>-macOS.zip` (Apple Silicon 推奨)
+- **Windows**: `SadShaPaw-Tauri-<version>-Windows-setup.exe`
+- **macOS**: `SadShaPaw-Tauri-<version>-macOS.zip` (Apple Silicon 推奨)
 
 #### 特徴
 
@@ -299,17 +296,17 @@ QwenPaw を Alibaba Cloud（ECS）で実行するには、ワンクリックデ�
 
 #### macOS: システムセキュリティ制限の回避
 
-Releases から QwenPaw macOS アプリをダウンロードすると、macOS は次のように表示する場合があります: *「Apple は 'QwenPaw' に悪意のあるソフトウェアが含まれていないことを確認できません」*。これはアプリが公証されていないためです。以下の方法で開くことができます:
+Releases から SadShaPaw macOS アプリをダウンロードすると、macOS は次のように表示する場合があります: *「Apple は 'SadShaPaw' に悪意のあるソフトウェアが含まれていないことを確認できません」*。これはアプリが公証されていないためです。以下の方法で開くことができます:
 
 - **右クリックして開く（推奨）**
-  QwenPaw アプリを右クリック（または Control+クリック）→ **「開く」** → ダイアログで再度 **「開く」** をクリック。これにより Gatekeeper にアプリを信頼していることを伝えます。その後は通常通りダブルクリックで起動できます。
+  SadShaPaw アプリを右クリック（または Control+クリック）→ **「開く」** → ダイアログで再度 **「開く」** をクリック。これにより Gatekeeper にアプリを信頼していることを伝えます。その後は通常通りダブルクリックで起動できます。
 
 - **システム設定で許可**
-  それでもブロックされる場合、**システム設定 → プライバシーとセキュリティ** に移動し、*「'QwenPaw' は未確認の開発元からのものであるためブロックされました」* のようなメッセージまでスクロールし、**「このまま開く」** または **「許可」** をクリックします。
+  それでもブロックされる場合、**システム設定 → プライバシーとセキュリティ** に移動し、*「'SadShaPaw' は未確認の開発元からのものであるためブロックされました」* のようなメッセージまでスクロールし、**「このまま開く」** または **「許可」** をクリックします。
 
 - **検疫属性の削除（ほとんどのユーザーには非推奨）**
   ターミナルで実行:
-  `xattr -cr "/Applications/QwenPaw Desktop.app"`
+  `xattr -cr "/Applications/SadShaPaw Desktop.app"`
   （または解凍後の `.app` へのパスを使用）。これにより「インターネットからダウンロードされた」検疫フラグがクリアされ、通常は警告が表示されなくなりますが、**右クリック → 開く** を使用するよりも安全性と制御性が低くなります。
 
 詳細な使用方法、トラブルシューティング、よくある問題については、[デスクトップアプリケーションガイド](https://qwenpaw.agentscope.io/docs/desktop) を参照してください。
@@ -339,13 +336,13 @@ qwenpaw .                   # 現在のリポジトリで開始（Coding Mode）
 
 ストリーミング応答、スラッシュコマンド（`/help`、`/resume`、`/theme`、エージェント独自の `/model`、`/clear` など）、ファイル/長文の貼り付け添付、インラインツール権限プロンプトに対応。詳細は [ターミナル UI ガイド](https://qwenpaw.agentscope.io/docs/tui) を参照してください。
 
-![QwenPaw TUI](https://img.alicdn.com/imgextra/i2/O1CN01IULzib1TRAzigIcqG_!!6000000002378-2-tps-2350-1312.png)
+![SadShaPaw TUI](https://img.alicdn.com/imgextra/i2/O1CN01IULzib1TRAzigIcqG_!!6000000002378-2-tps-2350-1312.png)
 
 ---
 
 ## API キー
 
-**クラウド LLM API**（例: DashScope / Qwen、OpenAI、Anthropic、Google Gemini、DeepSeek、Kimi、OpenRouter など）を使用する場合、チャットの前に API キーを設定する必要があります。有効なキーが設定されるまで QwenPaw は動作しません。詳細は [公式ドキュメント](https://qwenpaw.agentscope.io/docs/models) をご覧ください。
+**クラウド LLM API**（例: DashScope / Qwen、OpenAI、Anthropic、Google Gemini、DeepSeek、Kimi、OpenRouter など）を使用する場合、チャットの前に API キーを設定する必要があります。有効なキーが設定されるまで SadShaPaw は動作しません。詳細は [公式ドキュメント](https://qwenpaw.agentscope.io/docs/models) をご覧ください。
 
 **設定方法:**
 
@@ -355,17 +352,17 @@ qwenpaw .                   # 現在のリポジトリで開始（Coding Mode）
 
 その他のキー（例: Web 検索用 `TAVILY_API_KEY`）は、コンソールの **設定 → 環境変数** で設定できます。詳細は [Config](https://qwenpaw.agentscope.io/docs/config) を確認してください。
 
-> **ローカルモデルのみ使用する場合:** [ローカルモデル](#ローカルモデル)（QwenPaw Local / Ollama / LM Studio）を使用する場合、API キーは **不要** です。
+> **ローカルモデルのみ使用する場合:** [ローカルモデル](#ローカルモデル)（SadShaPaw Local / Ollama / LM Studio）を使用する場合、API キーは **不要** です。
 
 ## ローカルモデル
 
-QwenPaw は LLM を完全にローカルマシン上で実行できます — API キーやクラウドサービスは不要です。詳細は [公式ドキュメント](https://qwenpaw.agentscope.io/docs/models) をご覧ください。
+SadShaPaw は LLM を完全にローカルマシン上で実行できます — API キーやクラウドサービスは不要です。詳細は [公式ドキュメント](https://qwenpaw.agentscope.io/docs/models) をご覧ください。
 
-QwenPaw は **QwenPaw-Flash** シリーズも提供 — エージェントシナリオ向けに目的訓練された 2B / 4B / 9B / 35B-A3B / 27B モデル、Q4 と Q8 量子化に対応。[ModelScope](https://www.modelscope.cn/organization/AgentScope?tab=model) と [Hugging Face](https://huggingface.co/agentscope-ai/models) で入手可能。
+SadShaPaw は **SadShaPaw-Flash** シリーズも提供 — エージェントシナリオ向けに目的訓練された 2B / 4B / 9B / 35B-A3B / 27B モデル、Q4 と Q8 量子化に対応。[ModelScope](https://www.modelscope.cn/organization/AgentScope?tab=model) と [Hugging Face](https://huggingface.co/agentscope-ai/models) で入手可能。
 
 | バックエンド              | 最適な用途                                 | インストール                                                              |
 | -------------------- | ---------------------------------------- | -------------------------------------------------------------------- |
-| **QwenPaw Local** (llama.cpp) | クロスプラットフォーム（macOS / Linux / Windows） | 内蔵；Web UI で「Download」をクリック。QwenPaw-Flash に対応、ハードウェアに応じた推奨あり。 |
+| **SadShaPaw Local** (llama.cpp) | クロスプラットフォーム（macOS / Linux / Windows） | 内蔵；Web UI で「Download」をクリック。SadShaPaw-Flash に対応、ハードウェアに応じた推奨あり。 |
 | **Ollama**           | クロスプラットフォーム（Ollama サービスが必要） | Ollama をインストールして起動；コンテキスト長 ≥ 32k を設定。 |
 | **LM Studio**        | クロスプラットフォーム（LM Studio が必要）      | LM Studio をインストールして起動；Local Server を有効化。 |
 
@@ -373,7 +370,7 @@ QwenPaw は **QwenPaw-Flash** シリーズも提供 — エージェントシナ
 
 ## セキュリティ機能
 
-QwenPaw には 5 つのコアセキュリティレイヤーが含まれています：
+SadShaPaw には 5 つのコアセキュリティレイヤーが含まれています：
 
 - **Sandbox** — macOS では Seatbelt、Linux では Bubblewrap / Landlock、Windows では AppContainer によるカーネルレベルの実行分離。シェルコマンドは制限されたファイルシステムビュー内で実行されます。
 - **Tool Guard** — YAML ルールエンジンと `ShellEvasionGuardian` が実行前にすべてのツール呼び出しを検査し、コマンドインジェクション、パストラバーサル、リバースシェル、難読化攻撃を検出。承認レベル設定可能：STRICT / SMART / AUTO / OFF。
@@ -388,7 +385,7 @@ QwenPaw には 5 つのコアセキュリティレイヤーが含まれていま
 
 | トピック                                                                 | 説明                                      |
 | --------------------------------------------------------------------- | ------------------------------------------------ |
-| [はじめに](https://qwenpaw.agentscope.io/docs/intro)                | QwenPaw とは何か、使い方                  |
+| [はじめに](https://qwenpaw.agentscope.io/docs/intro)                | SadShaPaw とは何か、使い方                  |
 | [クイックスタート](https://qwenpaw.agentscope.io/docs/quickstart)            | インストールと実行（ローカルまたは ModelScope Studio）    |
 | [コンソール](https://qwenpaw.agentscope.io/docs/console)                   | Web UI: チャットとエージェント設定            |
 | [ターミナル UI（TUI）](https://qwenpaw.agentscope.io/docs/tui)             | フルスクリーンターミナルチャット、コンソールと同じエージェント |
@@ -445,8 +442,8 @@ QwenPaw には 5 つのコアセキュリティレイヤーが含まれていま
 | **音声対話**                   | リアルタイム音声タスク                        | 進行中       |
 | **コンテキスト管理とメモリ**   | ベクトルモデルと保存先のホット切り替え        | 進行中       |
 |                                | 個人ナレッジベース                            | 進行中       |
-| **QwenPaw アプリケーション**   | QwenPaw Insight                               | 進行中       |
-|                                | QwenPaw Mail                                  | 進行中       |
+| **SadShaPaw アプリケーション**   | SadShaPaw Insight                               | 進行中       |
+|                                | SadShaPaw Mail                                  | 進行中       |
 
 _状態:_ **進行中** — 積極的に開発中；**貢献者募集中** — コミュニティの参加を強く推奨。
 
@@ -454,20 +451,20 @@ _状態:_ **進行中** — 積極的に開発中；**貢献者募集中** — �
 
 ## コントリビュート
 
-QwenPaw はオープンな協働により進化を続けており、あらゆる形の貢献を歓迎しています！上記の [ロードマップ](#ロードマップ)（特に **貢献者募集中** の項目）から興味のある領域を選び、[CONTRIBUTING](https://github.com/agentscope-ai/QwenPaw/blob/main/CONTRIBUTING.md) を読んで始めてください。特に歓迎するのは：
+SadShaPaw はオープンな協働により進化を続けており、あらゆる形の貢献を歓迎しています！上記の [ロードマップ](#ロードマップ)（特に **貢献者募集中** の項目）から興味のある領域を選び、[CONTRIBUTING](https://github.com/fnjlabs-arch/QwenPaw/blob/main/CONTRIBUTING.md) を読んで始めてください。特に歓迎するのは：
 
 - **横展開** — 新規チャネル、モデルプロバイダー、スキル、MCP。
 - **既存機能の拡張 & 改善** — 表示と操作の最適化、ダウンロードヒント、Windows パス互換性など。
 
-[GitHub Discussions](https://github.com/agentscope-ai/QwenPaw/discussions) でアイデアを議論したりタスクを引き受けたりしてください。
+[GitHub Discussions](https://github.com/fnjlabs-arch/QwenPaw/discussions) でアイデアを議論したりタスクを引き受けたりしてください。
 
 ---
 
 ## ソースからインストール
 
 ```bash
-git clone https://github.com/agentscope-ai/QwenPaw.git
-cd QwenPaw
+git clone https://github.com/fnjlabs-arch/QwenPaw.git
+cd SadShaPaw
 
 # まずコンソールフロントエンドをビルド（Web UI に必須）
 cd console && npm ci && npm run build
@@ -488,9 +485,9 @@ pip install -e .
 
 ---
 
-## なぜ QwenPaw？
+## なぜ SadShaPaw？
 
-QwenPaw は Qwen Personal Agent Workstation（Qwen 個人エージェントワークステーション）の略であると同時に、Qwen の知性と Paw の温もりを体現しています。単なる冷たいツールではなく、いつでも手を差し伸べてくれる、賢くて温かい「小さな爪」でありたい — あなたのデジタルライフで最も息の合ったパートナーです。
+SadShaPaw は Qwen Personal Agent Workstation（Qwen 個人エージェントワークステーション）の略であると同時に、Qwen の知性と Paw の温もりを体現しています。単なる冷たいツールではなく、いつでも手を差し伸べてくれる、賢くて温かい「小さな爪」でありたい — あなたのデジタルライフで最も息の合ったパートナーです。
 
 ---
 
@@ -510,21 +507,21 @@ QwenPaw は Qwen Personal Agent Workstation（Qwen 個人エージェントワ�
 
 ## 最新情報をいち早く
 
-<a href="https://github.com/agentscope-ai/QwenPaw">
-  <img src="https://img.alicdn.com/imgextra/i1/O1CN01V8HYv61By0HYcIDaq_!!6000000000013-1-tps-1698-954.gif" width="600" alt="Star QwenPaw" />
+<a href="https://github.com/fnjlabs-arch/QwenPaw">
+  <img src="https://img.alicdn.com/imgextra/i1/O1CN01V8HYv61By0HYcIDaq_!!6000000000013-1-tps-1698-954.gif" width="600" alt="Star SadShaPaw" />
 </a>
 
-GitHub で QwenPaw にスターを付けて、新しいリリースの通知を即座に受け取りましょう。
+GitHub で SadShaPaw にスターを付けて、新しいリリースの通知を即座に受け取りましょう。
 
 ---
 
 ## テレメトリ
 
-QwenPaw は `qwenpaw init` 実行時に **匿名** の利用データを収集し、ユーザー環境の把握と製品改善に役立てています。データは **バージョンごとに 1 回** 送信されます — QwenPaw をアップグレードすると、バージョン分布を把握するために再収集されます。
+SadShaPaw は `qwenpaw init` 実行時に **匿名** の利用データを収集し、ユーザー環境の把握と製品改善に役立てています。データは **バージョンごとに 1 回** 送信されます — SadShaPaw をアップグレードすると、バージョン分布を把握するために再収集されます。
 
 **収集する情報：**
 
-- QwenPaw バージョン（例: 1.1.12）
+- SadShaPaw バージョン（例: 1.1.12）
 - インストール方法（pip、Docker、またはデスクトップアプリ）
 - OS とバージョン（例: macOS 14.0、Ubuntu 22.04）
 - Python バージョン（例: 3.13）
@@ -533,20 +530,20 @@ QwenPaw は `qwenpaw init` 実行時に **匿名** の利用データを収集�
 
 **収集しないもの：** 個人データ、ファイル、認証情報、IP アドレス、個人を特定できる情報は一切収集しません。
 
-`qwenpaw init` を対話モードで実行すると、同意するかどうか尋ねられます。`--defaults` モードでは自動的に同意されます。プロンプトはバージョンごとに 1 回のみ表示され、QwenPaw の機能には影響しません。
+`qwenpaw init` を対話モードで実行すると、同意するかどうか尋ねられます。`--defaults` モードでは自動的に同意されます。プロンプトはバージョンごとに 1 回のみ表示され、SadShaPaw の機能には影響しません。
 
 ---
 
 ## ライセンス
 
-QwenPaw は [Apache License 2.0](LICENSE) の下でリリースされています。
+SadShaPaw は [Apache License 2.0](LICENSE) の下でリリースされています。
 
 ---
 
 ## コントリビューター
 
-QwenPaw をより良くするために貢献してくださったすべての方々に感謝します：
+SadShaPaw をより良くするために貢献してくださったすべての方々に感謝します：
 
-<a href="https://github.com/agentscope-ai/QwenPaw/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=agentscope-ai/QwenPaw" alt="コントリビューター" />
+<a href="https://github.com/fnjlabs-arch/QwenPaw/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fnjlabs-arch/QwenPaw" alt="コントリビューター" />
 </a>

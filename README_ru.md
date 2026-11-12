@@ -1,29 +1,26 @@
 <div align="center">
 
-# QwenPaw
+# SadShaPaw
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black.svg?logo=github)](https://github.com/agentscope-ai/QwenPaw)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black.svg?logo=github)](https://github.com/fnjlabs-arch/QwenPaw)
 [![PyPI](https://img.shields.io/pypi/v/qwenpaw?color=3775A9&label=PyPI&logo=pypi)](https://pypi.org/project/qwenpaw/)
 [![Documentation](https://img.shields.io/badge/Docs-Website-green.svg?logo=readthedocs&label=Docs)](https://qwenpaw.agentscope.io/)
 [![Python Version](https://img.shields.io/badge/python-3.11%20~%20%3C3.14-blue.svg?logo=python&label=Python)](https://www.python.org/downloads/)
-[![Last Commit](https://img.shields.io/github/last-commit/agentscope-ai/QwenPaw)](https://github.com/agentscope-ai/QwenPaw)
+[![Last Commit](https://img.shields.io/github/last-commit/fnjlabs-arch/QwenPaw)](https://github.com/fnjlabs-arch/QwenPaw)
 [![License](https://img.shields.io/badge/license-Apache%202.0-red.svg?logo=apache&label=License)](LICENSE)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg?logo=python&label=CodeStyle)](https://github.com/psf/black)
-[![GitHub Stars](https://img.shields.io/github/stars/agentscope-ai/QwenPaw?style=flat&logo=github&color=yellow&label=Stars)](https://github.com/agentscope-ai/QwenPaw/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/agentscope-ai/QwenPaw?style=flat&logo=github&color=purple&label=Forks)](https://github.com/agentscope-ai/QwenPaw/network)
-[![DeepWiki](https://img.shields.io/badge/DeepWiki-Ask_Devin-navy.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/agentscope-ai/QwenPaw)
+[![GitHub Stars](https://img.shields.io/github/stars/fnjlabs-arch/QwenPaw?style=flat&logo=github&color=yellow&label=Stars)](https://github.com/fnjlabs-arch/QwenPaw/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/fnjlabs-arch/QwenPaw?style=flat&logo=github&color=purple&label=Forks)](https://github.com/fnjlabs-arch/QwenPaw/network)
+[![DeepWiki](https://img.shields.io/badge/DeepWiki-Ask_Devin-navy.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/SQc0ICFQgzfc4CYZoTPAswgSJCCUJUnAAoRHOAUOcATwbmVLWdGoH//PB8mnKqScAhsD0kYP3j/Yt5LPQe2KvcXmGvRHcDnpxfL2zOYJ1mFwrryWTz0advv1Ut4CJgf5uhDuDj5eUcAUoahrdY/56ebRWeraTjMt/00Sh3UDtjgHtQNHwcRGOC98BJEAEymycmYcWwOprTgcB6VZ5JK5TAJ+fXGLBm3FDAmn6oPPjR4rKCAoJCal2eAiQp2x0vxTPB3ALO2CRkwmDy5WohzBDwSEFKRwPbknEggCPB/imwrycgxX2NzoMCHhPkDwqYMr9tRcP5qNrMZHkVnOjRMWwLCcr8ohBVb1OMjxLwGCvjTikrsBOiA6fNyCrm8V1rP93iVPpwaE+gO0SsWmPiXB+jikdf6SizrT5qKasx5j8ABbHpFTx+vFXp9EnYQmLx02h1QTTrl6eDqxLnGjporxl3NL3agEvXdT0WmEost648sQOYAeJS9Q7bfUVoMGnjo4AZdUMQku50McDcMWcBPvr0SzbTAFDfvJqwLzgxwATnCgnp4wDl6Aa+Ax283gghmj+vj7feE2KBBRMW3FzOpLOADl0Isb5587h/U4gGvkt5v60Z1VLG8BhYjbzRwyQZemwAd6cCR5/XFWLYZRIMpX39AR0tjaGGiGzLVyhse5C9RKC6ai42ppWPKiBagOvaYk8lO7DajerabOZP46Lby5wKjw1HCRx7p9sVMOWGzb/vA1hwiWc6jm3MvQDTogQkiqIhJV0nBQBTU+3okKCFDy9WwferkHjtxib7t3xIUQtHxnIwtx4mpg26/HfwVNVDb4oI9RHmx5WGelRVlrtiw43zboCLaxv46AZeB3IlTkwouebTr1y2NjSpHz68WNFjHvupy3q8TFn3Hos2IAk4Ju5dCo8B3wP7VPr/FGaKiG+T+v+TQqIrOqMTL1VdWV1DdmcbO8KXBz6esmYWYKPwDL5b5FA1a0hwapHiom0r/cKaoqr+27/XcrS5UwSMbQAAAABJRU5ErkJggg==)](https://deepwiki.com/fnjlabs-arch/QwenPaw)
 [![Discord](https://img.shields.io/badge/Discord-Join_Us-blueviolet.svg?logo=discord)](https://discord.gg/eYMpfnkG8h)
 [![X](https://img.shields.io/badge/X-Follow_Us-black.svg?logo=x)](https://x.com/agentscope_ai)
 [![DingTalk](https://img.shields.io/badge/DingTalk-Join_Us-orange.svg)](https://qr.dingtalk.com/action/joingroup?code=v1,k1,OmDlBXpjW+I2vWjKDsjvI9dhcXjGZi3bQiojOq3dlDw=&_dt_no_comment=1&origin=11)
 [![AgentScope Platform](https://img.shields.io/badge/%E2%98%81_AgentScope_Platform-%F0%9F%90%BE_7%2F24_Online_%26_Free-FF6B2B.svg)](https://platform.agentscope.io/)
 
-<a href="https://trendshift.io/repositories/25882" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/25882/daily" alt="agentscope-ai%2FQwenPaw | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/25882" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/25882/daily" alt="fnjlabs-arch%2FQwenPaw | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 [[Документация](https://qwenpaw.agentscope.io/)] [[English](README.md)] [[中文](README_zh.md)] [[日本語](README_ja.md)]
 
-<p align="center">
-  <img src="https://gw.alicdn.com/imgextra/i1/O1CN01sens5C1TuwioeGexL_!!6000000002443-55-tps-771-132.svg" alt="QwenPaw Logo" width="120">
-</p>
 
 <p align="center"><b>Понимает вас, всегда с вами.</b></p>
 
@@ -34,7 +31,7 @@
 | | |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Никогда не забывает**                   | Трёхуровневая память — рабочий контекст в реальном времени, полная дословная история и саморазвивающаяся персональная база знаний на базе [ReMe](https://github.com/agentscope-ai/ReMe). Диалоги и материалы непрерывно преобразуются в читаемые, редактируемые, доступные для поиска и связанные между собой записи Markdown. |
-| **Локально или в облаке, бесплатно**      | Модели QwenPaw-Flash (2B / 4B / 9B / 35B-A3B / 27B), обученные для агентных задач. Встроенный рантайм QwenPaw Local — без API-ключа, без зависимости от облака. Также работает с Ollama, LM Studio и 14+ облачными провайдерами.   |
+| **Локально или в облаке, бесплатно**      | Модели SadShaPaw-Flash (2B / 4B / 9B / 35B-A3B / 27B), обученные для агентных задач. Встроенный рантайм SadShaPaw Local — без API-ключа, без зависимости от облака. Также работает с Ollama, LM Studio и 14+ облачными провайдерами.   |
 | **Безопасность из коробки**               | Песочница на уровне ядра, Tool Guard, File Guard и Skill Scanner. Опасные команды блокируются до выполнения.                                            |
 | **Мультиагентность и параллелизм**        | Создавайте независимых агентов со своей памятью и навыками. Субагенты во время выполнения. Agent Communication Protocol (ACP) для кросс-системной оркестрации.                               |
 | **Файловое рабочее пространство**         | Единые навигация, просмотр, редактирование, diff, загрузка и скачивание файлов проекта и агента.                                                                                           |
@@ -43,7 +40,7 @@
 | **Ваш, не наш**                           | Развертывание локально — данные остаются на вашей машине. Без стороннего хостинга, без загрузки данных.                                                                         |
 
 > <details>
-> <summary><b>Что можно делать с QwenPaw</b></summary>
+> <summary><b>Что можно делать с SadShaPaw</b></summary>
 >
 > <br>
 >
@@ -60,15 +57,15 @@
 
 ## Новости
 
-- [2026-11-11] **v2.3.0** | Локальные модели принятия решений Piccolo, интеграция с QwenPaw Community, Advisor Mode для совместной работы больших и малых моделей, Code Mode; переработанная система плагинов, SDK и каналы в виде плагинов; память с изображениями, просмотр по тегам, улучшения Console и работы с несколькими окнами. [Release Notes v2.3.0 →](https://qwenpaw.agentscope.io/release-notes#v2.3.0)
+- [2026-11-11] **v2.3.0** | Локальные модели принятия решений Piccolo, интеграция с SadShaPaw Community, Advisor Mode для совместной работы больших и малых моделей, Code Mode; переработанная система плагинов, SDK и каналы в виде плагинов; память с изображениями, просмотр по тегам, улучшения Console и работы с несколькими окнами. [Release Notes v2.3.0 →](https://qwenpaw.agentscope.io/release-notes#v2.3.0)
 
-- [2026-10-15] **v2.2.2** | Обновления Console, новые модели QwenPaw-Flash 9B/27B/35B-A3B, PawPort для переноса данных из Codex/Qoder, Creator 2.0.1 и Data 0.3.0. [Release Notes v2.2.2 →](https://qwenpaw.agentscope.io/release-notes#v2.2.2)
+- [2026-10-15] **v2.2.2** | Обновления Console, новые модели SadShaPaw-Flash 9B/27B/35B-A3B, PawPort для переноса данных из Codex/Qoder, Creator 2.0.1 и Data 0.3.0. [Release Notes v2.2.2 →](https://qwenpaw.agentscope.io/release-notes#v2.2.2)
 
 - [2026-09-10] **v2.2.1** | Рабочее пространство Blueprint в Creator 1.2, маршрутизация моделей для отдельных агентов и единое управление средой. [Release Notes v2.2.1 →](https://qwenpaw.agentscope.io/release-notes#v2.2.1)
 
-- [2026-09-03] **v2.2.0** | Самостоятельно размещаемый многопользовательский QwenPaw Hub, QwenPaw Mail, нативный QwenPaw Data, единая маршрутизация моделей, Creator 1.1 и крупные улучшения Market, Console, Skills, каналов и надежности. [Release Notes v2.2.0 →](https://qwenpaw.agentscope.io/release-notes#v2.2.0)
+- [2026-09-03] **v2.2.0** | Самостоятельно размещаемый многопользовательский SadShaPaw Hub, SadShaPaw Mail, нативный SadShaPaw Data, единая маршрутизация моделей, Creator 1.1 и крупные улучшения Market, Console, Skills, каналов и надежности. [Release Notes v2.2.0 →](https://qwenpaw.agentscope.io/release-notes#v2.2.0)
 
-- [2026-08-13] **v2.1.0** | QwenPaw OS Shell, единое файловое пространство, QwenPaw Creator, интеграция агентов Codex/Qoder, Browser-use, Computer-use, контрольные точки и продолжение длительных задач в диалоге. [Release Notes v2.1.0 →](https://qwenpaw.agentscope.io/release-notes#v2.1.0)
+- [2026-08-13] **v2.1.0** | SadShaPaw OS Shell, единое файловое пространство, SadShaPaw Creator, интеграция агентов Codex/Qoder, Browser-use, Computer-use, контрольные точки и продолжение длительных задач в диалоге. [Release Notes v2.1.0 →](https://qwenpaw.agentscope.io/release-notes#v2.1.0)
 
 [Все release notes →](https://qwenpaw.agentscope.io/release-notes)
 
@@ -86,7 +83,7 @@
 - [Дорожная карта](#дорожная-карта)
 - [Участие в проекте](#участие-в-проекте)
 - [Установка из исходников](#установка-из-исходников)
-- [Почему QwenPaw?](#почему-qwenpaw)
+- [Почему SadShaPaw?](#почему-qwenpaw)
 - [Кто разрабатывает](#кто-разрабатывает)
 - [Лицензия](#лицензия)
 
@@ -112,7 +109,7 @@ qwenpaw app
 
 ### Вариант 2: Установка через скрипт
 
-Не требуется ручная настройка Python — одна команда устанавливает всё. Скрипт автоматически загрузит uv (менеджер пакетов Python), создаст виртуальное окружение и установит QwenPaw со всеми зависимостями (включая Node.js и frontend-ресурсы). Примечание: может не работать в ограниченных сетевых окружениях или при корпоративном контроле доступа.
+Не требуется ручная настройка Python — одна команда устанавливает всё. Скрипт автоматически загрузит uv (менеджер пакетов Python), создаст виртуальное окружение и установит SadShaPaw со всеми зависимостями (включая Node.js и frontend-ресурсы). Примечание: может не работать в ограниченных сетевых окружениях или при корпоративном контроле доступа.
 
 **macOS / Linux:**
 
@@ -141,9 +138,9 @@ irm https://qwenpaw.agentscope.io/install.ps1 | iex
 >
 >    Скрипт завершает установку файлов. Из-за **режима ограниченного языка** он не может автоматически обновить переменные окружения. Настройте вручную следующим образом:
 >    - **Найдите директорию установки**:
->      - Проверьте доступность `uv`: Введите `uv --version` в CMD. Если отображается номер версии, **настройте только путь QwenPaw**. Если появляется сообщение `'uv' is not recognized as an internal or external command, operable program or batch file,` настройте оба пути.
+>      - Проверьте доступность `uv`: Введите `uv --version` в CMD. Если отображается номер версии, **настройте только путь SadShaPaw**. Если появляется сообщение `'uv' is not recognized as an internal or external command, operable program or batch file,` настройте оба пути.
 >      - Путь uv (выберите один в зависимости от места установки; используйте, если `uv` недоступен): Обычно `%USERPROFILE%\.local\bin`, `%USERPROFILE%\AppData\Local\uv` или папка `Scripts` в директории установки Python
->      - Путь QwenPaw: Обычно находится в `%USERPROFILE%\.qwenpaw\bin`.
+>      - Путь SadShaPaw: Обычно находится в `%USERPROFILE%\.qwenpaw\bin`.
 >    - **Вручную добавьте в системную переменную окружения Path**:
 >      - Нажмите `Win + R`, введите `sysdm.cpl` и нажмите Enter, чтобы открыть свойства системы.
 >      - Нажмите «Дополнительно» → «Переменные среды».
@@ -154,8 +151,8 @@ irm https://qwenpaw.agentscope.io/install.ps1 | iex
 >   Из-за **режима ограниченного языка** скрипт может не суметь автоматически загрузить `uv`.
 >   - **Установите uv вручную**: Обратитесь к [GitHub Release](https://github.com/astral-sh/uv/releases), загрузите `uv.exe` и поместите его в `%USERPROFILE%\.local\bin` или `%USERPROFILE%\AppData\Local\uv`; или убедитесь, что Python установлен, и выполните `python -m pip install -U uv`.
 >   - **Настройте переменные окружения `uv`**: Добавьте директорию `uv` и `%USERPROFILE%\.qwenpaw\bin` в системную переменную `Path`.
->   - **Повторно запустите установку**: Откройте новый терминал и снова выполните скрипт установки для завершения установки `QwenPaw`.
->   - **Настройте переменную окружения `QwenPaw`**: Добавьте `%USERPROFILE%\.qwenpaw\bin` в системную переменную `Path`.
+>   - **Повторно запустите установку**: Откройте новый терминал и снова выполните скрипт установки для завершения установки `SadShaPaw`.
+>   - **Настройте переменную окружения `SadShaPaw`**: Добавьте `%USERPROFILE%\.qwenpaw\bin` в системную переменную `Path`.
 
 После установки откройте новый терминал и выполните:
 
@@ -225,7 +222,7 @@ docker run -p 127.0.0.1:8088:8088 \
 
 > **Подключение к Ollama или другим сервисам на хост-машине**
 >
-> Внутри Docker-контейнера `localhost` указывает на сам контейнер, а не на хост-машину. Если Ollama (или другие модельные сервисы) запущены на хосте и вы хотите, чтобы QwenPaw в Docker мог к ним обращаться, используйте один из следующих подходов:
+> Внутри Docker-контейнера `localhost` указывает на сам контейнер, а не на хост-машину. Если Ollama (или другие модельные сервисы) запущены на хосте и вы хотите, чтобы SadShaPaw в Docker мог к ним обращаться, используйте один из следующих подходов:
 >
 > **Вариант A** — Явная привязка к хосту (все платформы):
 > ```bash
@@ -236,7 +233,7 @@ docker run -p 127.0.0.1:8088:8088 \
 >   -v qwenpaw-backups:/app/working.backups \
 >   agentscope/qwenpaw:latest
 > ```
-> Затем в QwenPaw **Настройки → Модели** измените Base URL на `http://host.docker.internal:<порт>` — например, `http://host.docker.internal:11434` для Ollama или `http://host.docker.internal:1234/v1` для LM Studio.
+> Затем в SadShaPaw **Настройки → Модели** измените Base URL на `http://host.docker.internal:<порт>` — например, `http://host.docker.internal:11434` для Ollama или `http://host.docker.internal:1234/v1` для LM Studio.
 >
 > **Вариант B** — Сеть хоста (только Linux):
 > ```bash
@@ -255,19 +252,19 @@ docker run -p 127.0.0.1:8088:8088 \
 
 ### Вариант 4: Развертывание на Alibaba Cloud ECS
 
-Для запуска QwenPaw на Alibaba Cloud (ECS) используйте развертывание в один клик: откройте [ссылку развертывания QwenPaw на Alibaba Cloud ECS](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884) и следуйте инструкциям. Пошаговые инструкции см. в [Сообщество разработчиков Alibaba Cloud: Развертывание вашего AI-ассистента за 3 минуты](https://developer.aliyun.com/article/1713682).
+Для запуска SadShaPaw на Alibaba Cloud (ECS) используйте развертывание в один клик: откройте [ссылку развертывания SadShaPaw на Alibaba Cloud ECS](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884) и следуйте инструкциям. Пошаговые инструкции см. в [Сообщество разработчиков Alibaba Cloud: Развертывание вашего AI-ассистента за 3 минуты](https://developer.aliyun.com/article/1713682).
 
 ---
 
 ### Вариант 5: AgentScope Platform
 
-[AgentScope Platform](https://platform.agentscope.io/) обеспечивает развертывание QwenPaw в облаке в один клик, обмен плагинами и маркет Skill. Бесплатно, работает 7/24 онлайн.
+[AgentScope Platform](https://platform.agentscope.io/) обеспечивает развертывание SadShaPaw в облаке в один клик, обмен плагинами и маркет Skill. Бесплатно, работает 7/24 онлайн.
 
 ---
 
 ### Вариант 6: Использование ModelScope
 
-[ModelScope Studio](https://modelscope.cn/studios/fork?target=AgentScope/QwenPaw) также поддерживает облачное развертывание QwenPaw. Примечание: установите свою студию как **непубличную**, иначе другие смогут управлять вашим QwenPaw.
+[ModelScope Studio](https://modelscope.cn/studios/fork?target=AgentScope/SadShaPaw) также поддерживает облачное развертывание SadShaPaw. Примечание: установите свою студию как **непубличную**, иначе другие смогут управлять вашим SadShaPaw.
 
 ---
 
@@ -278,13 +275,13 @@ docker run -p 127.0.0.1:8088:8088 \
 > - **Возможны проблемы с производительностью**: Время запуска, использование памяти и другие аспекты производительности могут требовать дополнительной оптимизации
 > - **Функции продолжают совершенствоваться**: Некоторые функции могут быть нестабильными или отсутствовать
 
-Если вы не привыкли использовать командную строку, можете загрузить и использовать десктопную версию QwenPaw без ручной настройки Python-окружения или выполнения команд.
+Если вы не привыкли использовать командную строку, можете загрузить и использовать десктопную версию SadShaPaw без ручной настройки Python-окружения или выполнения команд.
 
 #### Загрузка
 
 Загрузите десктопное приложение (сборка Tauri) с [официальной страницы загрузки](https://qwenpaw.agentscope.io/downloads):
-- **Windows**: `QwenPaw-Tauri-<version>-Windows-setup.exe`
-- **macOS**: `QwenPaw-Tauri-<version>-macOS.zip` (рекомендуется для Apple Silicon)
+- **Windows**: `SadShaPaw-Tauri-<version>-Windows-setup.exe`
+- **macOS**: `SadShaPaw-Tauri-<version>-macOS.zip` (рекомендуется для Apple Silicon)
 
 #### Особенности
 
@@ -299,17 +296,17 @@ docker run -p 127.0.0.1:8088:8088 \
 
 #### macOS: Обход системных ограничений безопасности
 
-Когда вы загружаете приложение QwenPaw для macOS, macOS может отобразить: *«Apple не может проверить, что "QwenPaw" не содержит вредоносного ПО»*. Это происходит потому, что приложение не нотаризовано. Вы все равно можете открыть его следующими способами:
+Когда вы загружаете приложение SadShaPaw для macOS, macOS может отобразить: *«Apple не может проверить, что "SadShaPaw" не содержит вредоносного ПО»*. Это происходит потому, что приложение не нотаризовано. Вы все равно можете открыть его следующими способами:
 
 - **Открытие через правый клик (рекомендуется)**
-  Щелкните правой кнопкой (или Control + щелчок) по приложению QwenPaw → **«Открыть»** → в диалоговом окне снова нажмите **«Открыть»**. Это сообщит Gatekeeper, что вы доверяете приложению; после этого можно запускать его двойным щелчком как обычно.
+  Щелкните правой кнопкой (или Control + щелчок) по приложению SadShaPaw → **«Открыть»** → в диалоговом окне снова нажмите **«Открыть»**. Это сообщит Gatekeeper, что вы доверяете приложению; после этого можно запускать его двойным щелчком как обычно.
 
 - **Разрешить в системных настройках**
-  Если всё ещё заблокировано, перейдите в **Системные настройки → Конфиденциальность и безопасность**, прокрутите до сообщения типа *«"QwenPaw" заблокирован, так как невозможно проверить разработчика»*, и нажмите **«Всё равно открыть»** или **«Разрешить»**.
+  Если всё ещё заблокировано, перейдите в **Системные настройки → Конфиденциальность и безопасность**, прокрутите до сообщения типа *«"SadShaPaw" заблокирован, так как невозможно проверить разработчика»*, и нажмите **«Всё равно открыть»** или **«Разрешить»**.
 
 - **Удалить атрибут карантина (не рекомендуется для большинства пользователей)**
   В терминале выполните:
-  `xattr -cr "/Applications/QwenPaw Desktop.app"`
+  `xattr -cr "/Applications/SadShaPaw Desktop.app"`
   (или используйте путь к `.app` после распаковки). Это очистит флаг карантина «загружено из интернета», поэтому предупреждение обычно не появляется, но это менее безопасно и контролируемо, чем использование **Правый клик → Открыть**.
 
 Подробные инструкции, устранение неполадок и частые вопросы см. в [Руководстве по десктопному приложению](https://qwenpaw.agentscope.io/docs/desktop).
@@ -339,13 +336,13 @@ qwenpaw .                   # начать в текущем репозитор�
 
 Поддерживаются потоковые ответы, slash-команды (`/help`, `/resume`, `/theme`, а также собственные команды агента `/model`, `/clear`, …), вставка файлов/длинного текста как вложений и inline-запросы разрешений на инструменты. Подробности см. в [руководстве по Terminal UI](https://qwenpaw.agentscope.io/docs/tui).
 
-![QwenPaw TUI](https://img.alicdn.com/imgextra/i2/O1CN01IULzib1TRAzigIcqG_!!6000000002378-2-tps-2350-1312.png)
+![SadShaPaw TUI](https://img.alicdn.com/imgextra/i2/O1CN01IULzib1TRAzigIcqG_!!6000000002378-2-tps-2350-1312.png)
 
 ---
 
 ## API Key
 
-Если вы используете **облачный API для LLM** (например, DashScope / Qwen, OpenAI, Anthropic, Google Gemini, DeepSeek, Kimi, OpenRouter и другие), перед началом диалога необходимо настроить API Key. До настройки действительного ключа QwenPaw не будет работать. Подробности см. в [официальной документации](https://qwenpaw.agentscope.io/docs/models).
+Если вы используете **облачный API для LLM** (например, DashScope / Qwen, OpenAI, Anthropic, Google Gemini, DeepSeek, Kimi, OpenRouter и другие), перед началом диалога необходимо настроить API Key. До настройки действительного ключа SadShaPaw не будет работать. Подробности см. в [официальной документации](https://qwenpaw.agentscope.io/docs/models).
 
 **Способы настройки:**
 
@@ -355,17 +352,17 @@ qwenpaw .                   # начать в текущем репозитор�
 
 Ключи для других инструментов (например, `TAVILY_API_KEY` для веб-поиска) можно настроить в консоли **Настройки → Переменные окружения**, подробности см. в [Конфигурация](https://qwenpaw.agentscope.io/docs/config).
 
-> **Используете только локальные модели?** Если вы используете [Локальные модели](#локальные-модели) (QwenPaw Local / Ollama / LM Studio), вам **не нужен** никакой API Key.
+> **Используете только локальные модели?** Если вы используете [Локальные модели](#локальные-модели) (SadShaPaw Local / Ollama / LM Studio), вам **не нужен** никакой API Key.
 
 ## Локальные модели
 
-QwenPaw может полностью запускать LLM на вашей машине — без API-ключей и облачных сервисов. Подробности см. в [официальной документации](https://qwenpaw.agentscope.io/docs/models).
+SadShaPaw может полностью запускать LLM на вашей машине — без API-ключей и облачных сервисов. Подробности см. в [официальной документации](https://qwenpaw.agentscope.io/docs/models).
 
-QwenPaw также предоставляет серию **QwenPaw-Flash** — специально обученные модели 2B / 4B / 9B / 35B-A3B / 27B для агентных сценариев с квантизациями Q4 и Q8. Доступны на [ModelScope](https://www.modelscope.cn/organization/AgentScope?tab=model) и [Hugging Face](https://huggingface.co/agentscope-ai/models).
+SadShaPaw также предоставляет серию **SadShaPaw-Flash** — специально обученные модели 2B / 4B / 9B / 35B-A3B / 27B для агентных сценариев с квантизациями Q4 и Q8. Доступны на [ModelScope](https://www.modelscope.cn/organization/AgentScope?tab=model) и [Hugging Face](https://huggingface.co/agentscope-ai/models).
 
 | Бэкенд              | Подходит для                             | Установка                                                                 |
 | ------------------- | ---------------------------------------- | ------------------------------------------------------------------------- |
-| **QwenPaw Local** (llama.cpp) | Кроссплатформенный (macOS / Linux / Windows) | Встроен; нажмите «Download» в веб-интерфейсе. Поддержка QwenPaw-Flash с рекомендациями с учётом железа. |
+| **SadShaPaw Local** (llama.cpp) | Кроссплатформенный (macOS / Linux / Windows) | Встроен; нажмите «Download» в веб-интерфейсе. Поддержка SadShaPaw-Flash с рекомендациями с учётом железа. |
 | **Ollama**          | Кроссплатформенный (требуется сервис Ollama) | Установите и запустите Ollama; установите длину контекста ≥ 32k. |
 | **LM Studio**       | Кроссплатформенный (требуется LM Studio) | Установите и запустите LM Studio; включите Local Server. |
 
@@ -373,7 +370,7 @@ QwenPaw также предоставляет серию **QwenPaw-Flash** — �
 
 ## Функции безопасности
 
-QwenPaw включает четыре основных уровня безопасности:
+SadShaPaw включает четыре основных уровня безопасности:
 
 - **Sandbox** — Изоляция выполнения на уровне ядра с помощью Seatbelt (macOS), Bubblewrap / Landlock (Linux) и AppContainer (Windows). Shell-команды выполняются в ограниченном представлении файловой системы.
 - **Tool Guard** — YAML-движок правил с `ShellEvasionGuardian` проверяет каждый вызов инструмента перед выполнением, обнаруживая инъекции команд, обход путей, reverse shells и обфусцированные атаки. Настраиваемые уровни одобрения: STRICT / SMART / AUTO / OFF.
@@ -389,7 +386,7 @@ QwenPaw включает четыре основных уровня безопа
 
 | Тема                                                                 | Описание                                        |
 | -------------------------------------------------------------------- | ----------------------------------------------- |
-| [Введение](https://qwenpaw.agentscope.io/docs/intro)                 | Что такое QwenPaw и как его использовать         |
+| [Введение](https://qwenpaw.agentscope.io/docs/intro)                 | Что такое SadShaPaw и как его использовать         |
 | [Быстрый старт](https://qwenpaw.agentscope.io/docs/quickstart)       | Установка и запуск (локально или ModelScope Studio) |
 | [Консоль](https://qwenpaw.agentscope.io/docs/console)                | Веб-интерфейс: чат и конфигурация агента        |
 | [Terminal UI (TUI)](https://qwenpaw.agentscope.io/docs/tui)          | Полноэкранный терминальный чат, тот же агент, что и в Консоли |
@@ -446,8 +443,8 @@ QwenPaw включает четыре основных уровня безопа
 | **Голосовое взаимодействие**                    | Голосовое управление задачами                  | В работе        |
 | **Управление контекстом и памятью**             | Горячая смена векторной модели и хранилища      | В работе        |
 |                                                 | Персональная база знаний                       | В работе        |
-| **Приложения QwenPaw**                          | QwenPaw Insight                                | В работе        |
-|                                                 | QwenPaw Mail                                   | В работе        |
+| **Приложения SadShaPaw**                          | SadShaPaw Insight                                | В работе        |
+|                                                 | SadShaPaw Mail                                   | В работе        |
 
 _Статусы:_ **В работе** — активно ведётся разработка; **Ищем участников** — мы настоятельно призываем к участию сообщества.
 
@@ -455,20 +452,20 @@ _Статусы:_ **В работе** — активно ведётся разр
 
 ## Участие в проекте
 
-QwenPaw развивается через открытую совместную работу, и мы приветствуем любые формы участия! Ознакомьтесь с [Дорожной картой](#дорожная-карта) выше (особенно с пунктами, отмеченными как **Ищем участников**), чтобы найти интересующие вас области, и прочитайте [CONTRIBUTING](https://github.com/agentscope-ai/QwenPaw/blob/main/CONTRIBUTING.md), чтобы начать. Мы особенно приветствуем:
+SadShaPaw развивается через открытую совместную работу, и мы приветствуем любые формы участия! Ознакомьтесь с [Дорожной картой](#дорожная-карта) выше (особенно с пунктами, отмеченными как **Ищем участников**), чтобы найти интересующие вас области, и прочитайте [CONTRIBUTING](https://github.com/fnjlabs-arch/QwenPaw/blob/main/CONTRIBUTING.md), чтобы начать. Мы особенно приветствуем:
 
 - **Горизонтальное расширение** — новые каналы, провайдеры моделей, Skills, MCP.
 - **Расширение и улучшение существующих функций** — оптимизация отображения и взаимодействия, подсказки при загрузке, совместимость путей Windows и т.д.
 
-Присоединяйтесь к обсуждениям на [GitHub Discussions](https://github.com/agentscope-ai/QwenPaw/discussions), чтобы обсуждать идеи или браться за задачи.
+Присоединяйтесь к обсуждениям на [GitHub Discussions](https://github.com/fnjlabs-arch/QwenPaw/discussions), чтобы обсуждать идеи или браться за задачи.
 
 ---
 
 ## Установка из исходников
 
 ```bash
-git clone https://github.com/agentscope-ai/QwenPaw.git
-cd QwenPaw
+git clone https://github.com/fnjlabs-arch/QwenPaw.git
+cd SadShaPaw
 
 # Сначала соберите frontend консоли (необходимо для веб-интерфейса)
 cd console && npm ci && npm run build
@@ -489,9 +486,9 @@ pip install -e .
 
 ---
 
-## Почему QwenPaw?
+## Почему SadShaPaw?
 
-QwenPaw расшифровывается как Qwen Personal Agent Workstation и воплощает мудрость Qwen и теплоту Paw. Мы хотим, чтобы это был не холодный инструмент, а умная и тёплая «маленькая лапка», всегда готовая прийти на помощь — самый интуитивный партнёр в вашей цифровой жизни.
+SadShaPaw расшифровывается как Qwen Personal Agent Workstation и воплощает мудрость Qwen и теплоту Paw. Мы хотим, чтобы это был не холодный инструмент, а умная и тёплая «маленькая лапка», всегда готовая прийти на помощь — самый интуитивный партнёр в вашей цифровой жизни.
 
 ---
 
@@ -511,21 +508,21 @@ QwenPaw расшифровывается как Qwen Personal Agent Workstation 
 
 ## Будьте в курсе
 
-<a href="https://github.com/agentscope-ai/QwenPaw">
-  <img src="https://img.alicdn.com/imgextra/i1/O1CN01V8HYv61By0HYcIDaq_!!6000000000013-1-tps-1698-954.gif" width="600" alt="Star QwenPaw" />
+<a href="https://github.com/fnjlabs-arch/QwenPaw">
+  <img src="https://img.alicdn.com/imgextra/i1/O1CN01V8HYv61By0HYcIDaq_!!6000000000013-1-tps-1698-954.gif" width="600" alt="Star SadShaPaw" />
 </a>
 
-Поставьте звезду QwenPaw на GitHub, чтобы мгновенно получать уведомления о новых релизах.
+Поставьте звезду SadShaPaw на GitHub, чтобы мгновенно получать уведомления о новых релизах.
 
 ---
 
 ## Телеметрия
 
-QwenPaw собирает **анонимные** данные об использовании при выполнении `qwenpaw init`, чтобы помочь нам понять пользовательскую базу и расставить приоритеты улучшений. Данные отправляются **один раз на версию** — при обновлении QwenPaw телеметрия собирается повторно для отслеживания распространения версий.
+SadShaPaw собирает **анонимные** данные об использовании при выполнении `qwenpaw init`, чтобы помочь нам понять пользовательскую базу и расставить приоритеты улучшений. Данные отправляются **один раз на версию** — при обновлении SadShaPaw телеметрия собирается повторно для отслеживания распространения версий.
 
 **Собираемая информация:**
 
-- Версия QwenPaw (например, 1.1.12)
+- Версия SadShaPaw (например, 1.1.12)
 - Способ установки (pip, Docker или десктопное приложение)
 - Операционная система и версия (например, macOS 14.0, Ubuntu 22.04)
 - Версия Python (например, 3.13)
@@ -534,20 +531,20 @@ QwenPaw собирает **анонимные** данные об использ
 
 **Не собирается:** Никакие персональные данные, файлы, ключи, IP-адреса или идентифицируемая информация.
 
-При интерактивном запуске `qwenpaw init` вас спросят о согласии. При использовании `--defaults` согласие даётся автоматически. Запрос появляется один раз на версию и не влияет на функциональность QwenPaw.
+При интерактивном запуске `qwenpaw init` вас спросят о согласии. При использовании `--defaults` согласие даётся автоматически. Запрос появляется один раз на версию и не влияет на функциональность SadShaPaw.
 
 ---
 
 ## Лицензия
 
-QwenPaw выпускается под лицензией [Apache License 2.0](LICENSE).
+SadShaPaw выпускается под лицензией [Apache License 2.0](LICENSE).
 
 ---
 
 ## Участники
 
-Благодарим всех, кто внёс вклад в развитие QwenPaw:
+Благодарим всех, кто внёс вклад в развитие SadShaPaw:
 
-<a href="https://github.com/agentscope-ai/QwenPaw/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=agentscope-ai/QwenPaw" alt="Участники" />
+<a href="https://github.com/fnjlabs-arch/QwenPaw/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fnjlabs-arch/QwenPaw" alt="Участники" />
 </a>

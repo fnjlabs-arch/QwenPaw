@@ -1,10 +1,10 @@
 # Local Piccolo decisions
 
-Piccolo uses QwenPaw's native Jev decision interface for tool review and ReMe context compaction. Models are available on [Hugging Face](https://huggingface.co/agentscope-ai) (`agentscope-ai/Piccolo-*`) and [ModelScope](https://modelscope.cn/organization/AgentScope) (`AgentScope/Piccolo-*`). GGUF variants use `-BF16`, `-Q8_0`, and `-Q4_K_M` repositories. The catalog recommends BF16 and Q8_0 models according to machine memory; Q4_K_M is available through custom model download.
+Piccolo uses SadShaPaw's native Jev decision interface for tool review and ReMe context compaction. Models are available on [Hugging Face](https://huggingface.co/agentscope-ai) (`agentscope-ai/Piccolo-*`) and [ModelScope](https://modelscope.cn/organization/AgentScope) (`AgentScope/Piccolo-*`). GGUF variants use `-BF16`, `-Q8_0`, and `-Q4_K_M` repositories. The catalog recommends BF16 and Q8_0 models according to machine memory; Q4_K_M is available through custom model download.
 
 ## Download and enable
 
-1. In **Models → QwenPaw Local**, install or update the inference engine. The managed runtime supports both Flash chat and Piccolo decisions.
+1. In **Models → SadShaPaw Local**, install or update the inference engine. The managed runtime supports both Flash chat and Piccolo decisions.
 2. Choose **Hugging Face** or **ModelScope**, download a model under **Decision models**, and click **Start**. Check **Models → Default models → Decision model**.
 3. For tool review, choose **Decision Model Mode** in the agent's security settings and enable review in the conversation.
 4. For compaction, enable context compaction and **Decision model compaction** in the agent's context settings.
@@ -28,7 +28,7 @@ python scripts/test_piccolo_runtime.py \
 
 Windows builds run in a Visual Studio developer shell; ARM64 also requires LLVM. The smoke test runs Flash chat, Piccolo decisions, then Flash again using the packaged files.
 
-The **Piccolo runtime** workflow builds and tests every platform. A `llama-cpp-<release>` tag (for example, `llama-cpp-piccolo-v1`) publishes the bundles to QwenPaw's download service using the existing OSS credentials. Publish from the reviewed commit before merging the installer update. The PR check **Runtime available for installer** verifies that every package is available at the configured URL.
+The **Piccolo runtime** workflow builds and tests every platform. A `llama-cpp-<release>` tag (for example, `llama-cpp-piccolo-v1`) publishes the bundles to SadShaPaw's download service using the existing OSS credentials. Publish from the reviewed commit before merging the installer update. The PR check **Runtime available for installer** verifies that every package is available at the configured URL.
 
 To publish already-tested bundles from the existing release environment, run `python scripts/piccolo_runtime.py publish --output dist/piccolo-runtime`. It uses `OSS_ENDPOINT`, `OSS_ACCESS_KEY_ID`, `OSS_ACCESS_KEY_SECRET`, and optional `OSS_SESSION_TOKEN` for STS credentials. Alternatively, pass `--oss-config /path/to/ossutilconfig` to use an existing ossutil credentials file. The publishing identity needs `oss:GetObject` and `oss:PutObject` on `acs:oss:*:*:qwenpaw-download/files/models/llama_cpp/piccolo-v1/*`.
 
@@ -38,13 +38,13 @@ The installer verifies the archive checksum and release identity before replacin
 
 ## Inference contract
 
-QwenPaw sends native questions and state through AgentScope's Jev classifier to the managed runtime's `/v1/systemone` endpoint. The transport disables request compression because stock llama.cpp HTTP builds do not include a zstd decoder. It does not generate or parse probability JSON through Chat Completions.
+SadShaPaw sends native questions and state through AgentScope's Jev classifier to the managed runtime's `/v1/systemone` endpoint. The transport disables request compression because stock llama.cpp HTTP builds do not include a zstd decoder. It does not generate or parse probability JSON through Chat Completions.
 
 The repository name is Piccolo. The GGUF carries `qwen35.attention.causal=false`, serialized decision type `blink`, the tokenizer's prompt boundaries, and probability temperature 1.0. The runtime applies noncausal attention in Qwen3.5's full-attention layers; linear-attention layers keep their original recurrent computation. Each question uses the checkpoint's exact `flex_twice` layout, with thinking disabled and an `Answer: (` readout boundary. The repeated form is used when the request's one-pass token budget is at most 3,000 and every repeated row fits the checkpoint's context limit.
 
 The runtime reads the logits of the single-token candidate labels directly. Softmax over those candidate logits at temperature 1 gives the candidate-normalized probabilities, equivalently renormalizing their token log probabilities. It generates no answer tokens. The existing SystemOne response supplies binary probabilities, choice distributions and confidence, or ordered scores. These distributions are not empirical calibration guarantees; task-quality and threshold calibration are separate evaluations.
 
-QwenPaw uses one slot, equal context/batch/microbatch limits, no prompt cache, and no context shifting for Piccolo. This initial integration caps each complete question prompt at 8,192 tokens, including any repeated layout, independently of the larger shared chat-window setting. Requests that do not fit the complete-prompt budget fail explicitly. Reusing a causal prefix cache, splitting the prompt into causal chunks, or silently truncating it changes the computation.
+SadShaPaw uses one slot, equal context/batch/microbatch limits, no prompt cache, and no context shifting for Piccolo. This initial integration caps each complete question prompt at 8,192 tokens, including any repeated layout, independently of the larger shared chat-window setting. Requests that do not fit the complete-prompt budget fail explicitly. Reusing a causal prefix cache, splitting the prompt into causal chunks, or silently truncating it changes the computation.
 
 ## Checkpoint conversion and verification
 

@@ -1,10 +1,10 @@
 [package]
 name = "qwenpaw-desktop"
 version = "0.1.0"
-description = "QwenPaw Desktop Tauri shell that wraps the QwenPaw Console frontend and runs the Python FastAPI backend as a local sidecar process."
-authors = ["QwenPaw Contributors"]
+description = "SadShaPaw Desktop Tauri shell that wraps the SadShaPaw Console frontend and runs the Python FastAPI backend as a local sidecar process."
+authors = ["SadShaPaw Contributors"]
 license = "Apache-2.0"
-repository = "https://github.com/agentscope-ai/QwenPaw"
+repository = "https://github.com/fnjlabs-arch/QwenPaw"
 edition = "2021"
 rust-version = "1.90"
 default-run = "qwenpaw-desktop"
